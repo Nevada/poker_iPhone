@@ -15,6 +15,8 @@
 		5D9B8FA61514A3980047C78E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B8FA51514A3980047C78E /* AppDelegate.m */; };
 		5D9B8FA91514A3980047C78E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B8FA71514A3980047C78E /* MainStoryboard.storyboard */; };
 		5D9B8FAC1514A3980047C78E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B8FAB1514A3980047C78E /* ViewController.m */; };
+		5D9B8FB61514B6050047C78E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B8FB51514B6050047C78E /* logo.png */; };
+		5D9B8FB81514B69A0047C78E /* purple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B8FB71514B69A0047C78E /* purple_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5D9B8FA81514A3980047C78E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5D9B8FAA1514A3980047C78E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5D9B8FAB1514A3980047C78E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D9B8FB51514B6050047C78E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5D9B8FB71514B69A0047C78E /* purple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +94,22 @@
 		5D9B8F9C1514A3980047C78E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D9B8FB41514B5EB0047C78E /* images */,
 				5D9B8F9D1514A3980047C78E /* poker_iPhone-Info.plist */,
 				5D9B8F9E1514A3980047C78E /* InfoPlist.strings */,
 				5D9B8FA11514A3980047C78E /* main.m */,
 				5D9B8FA31514A3980047C78E /* poker_iPhone-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D9B8FB41514B5EB0047C78E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5D9B8FB71514B69A0047C78E /* purple_logo.png */,
+				5D9B8FB51514B6050047C78E /* logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,8 @@
 			files = (
 				5D9B8FA01514A3980047C78E /* InfoPlist.strings in Resources */,
 				5D9B8FA91514A3980047C78E /* MainStoryboard.storyboard in Resources */,
+				5D9B8FB61514B6050047C78E /* logo.png in Resources */,
+				5D9B8FB81514B69A0047C78E /* purple_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
